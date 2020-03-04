@@ -1,0 +1,25 @@
+
+escrito por un maquina
+
+
+Camera Real ==> components/robocomp-robolab/components/detectection/realsensehuman  src/realsensehuman.py etc/config
+
+Grabar ==> /home/salabeta/robocomp/components/robocomp-tests/camerargbdsimple_writer (en el config se indica el fichero donde grabr SE SOBREESCRIBE)
+
+Reproducir ==> /home/salabeta/robocomp/components/robocomp-tests/camerargbd_fromfile (en el config se indica el fichero a reproducir, en specifiworker se cambia el self.Period = 100 (velocidad de reproduccion)
+
+
+Monitor (comprobar que la camara/reproductor funciona ==> /home/salabeta/robocomp/tools/rcmonitor COMANDO =>  python3 rcmonitor.py examples/camerargbdsimple.rcm
+
+
+Calibracion
+
+1º abrir apriltagserver ==> /home/salabeta/robocomp/components/human-detection/components/apriltagsServer
+2º abrir extrinsic_calibration ==> /home/salabeta/robocomp/components/robocomp-robolab/components/detection/extrinsic_camera_calibration
+
+
+
+Openpifpaf ==> /home/salabeta/robocomp/components/human-detection/components/openpifpaf_humanbody 
+
+
+

@@ -1,0 +1,3 @@
+/home/salabeta/robocomp/components/smpeople/contadorpersonas/CMakeFiles/rebuild_cache.dir
+/home/salabeta/robocomp/components/smpeople/contadorpersonas/CMakeFiles/ui_mainUI.dir
+/home/salabeta/robocomp/components/smpeople/contadorpersonas/CMakeFiles/edit_cache.dir

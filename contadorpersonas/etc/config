@@ -1,0 +1,15 @@
+# Endpoints for subscriptions
+HumanCameraBodyTopic.Endpoints=tcp -p 15000
+
+
+
+# This property is used by the clients to connect to IceStorm.
+TopicManager.Proxy=IceStorm/TopicManager:default -p 9999
+InnerModelPath=calibracion_salabeta.xml
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+
+
+

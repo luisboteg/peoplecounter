@@ -1,0 +1,13 @@
+import "HumanCameraBody.idsl";
+
+Component contadorpersonas
+{
+    Communications
+    {
+        subscribesTo HumanCameraBody;
+    };
+	language python;
+	gui Qt(QWidget);
+	statemachine "statemachine.smdsl";
+};
+
