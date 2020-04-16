@@ -67,18 +67,21 @@ void SpecificWorker::initialize(int period)
 
 void SpecificWorker::compute()
 {
-//computeCODE
-//QMutexLocker locker(mutex);
-//	try
-//	{
-//		camera_proxy->getYImage(0,img, cState, bState);
-//		memcpy(image_gray.data, &img[0], m_width*m_height*sizeof(uchar));
-//		searchTags(image_gray);
-//	}
-//	catch(const Ice::Exception &e)
-//	{
-//		std::cout << "Error reading from Camera" << e << std::endl;
-//	}
+	this->tiempo++;
+	personas+=people.lenthg()
+	if(this->tiempo == 60)
+	{
+		personas/=60;
+		this->tiempo = 0;
+		if( people.lenthg() != personas)
+		{
+			int diferencia = personas - people.lentgh();
+			printf("Hay %i personas que antes",diferencia);
+		}
+		else
+			printf("No ha cambiado el número de personas");
+		personas = people.lentgh();
+	}
 }
 
 
@@ -105,6 +108,7 @@ void SpecificWorker::sm_finalize()
 void SpecificWorker::HumanCameraBody_newPeopleData(PeopleData people)
 {
 //subscribesToCODE
+	this->people = people;
 
 }
 

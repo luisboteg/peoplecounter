@@ -51,6 +51,9 @@ public slots:
 //--------------------
 private:
 	std::shared_ptr<InnerModel> innerModel;
+	PeopleData people;
+	int personas = 0;
+	int tiempo = 0;
 
 };
 
